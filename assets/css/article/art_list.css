@@ -1,0 +1,12 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 15px;
+    background-color: #F0F2F5;
+}
+#form-edit2{
+    padding-top:20px ;
+    padding-right: 30px;
+}

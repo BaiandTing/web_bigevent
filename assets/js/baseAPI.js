@@ -3,7 +3,8 @@
 $.ajaxPrefilter(function (options) {
     console.log(options.url);
     // 在发起真正的Ajax 之前 统一拼接请求的根路径
-    options.url = 'http://www.liulongbin.top:3007' + options.url
+    // options.url = 'http://www.liulongbin.top:3007' + options.url
+    options.url = 'http://api-breakingnews-web.itheima.net' + options.url
     // console.log(options.url);
 
     //统一为有权限的接口，设置 headers 请求头
